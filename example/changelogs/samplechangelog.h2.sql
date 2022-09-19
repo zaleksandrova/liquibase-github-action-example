@@ -32,9 +32,9 @@ alter table person add column state varchar(2)
 --rollback ALTER TABLE company DROP COLUMN country;
 alter table company add column country varchar(2)
 
---changeset zaleksandrova:zaleksandrova1
---rollback DROP TABLE yourname;
-CREATE TABLE yourname (
+--changeset zalex:zalex
+--rollback DROP TABLE zalex;
+CREATE TABLE zalex (
     id int primary key,
     name varchar(50) not null
 )
